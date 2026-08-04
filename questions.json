@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Qual é o nome do cavalo de Johnny Joestar na Steel Ball Run?",
+    "options": [
+      "Valkyrie",
+      "Slow Dancer",
+      "Silver Bullet",
+      "Hey Ya!"
+    ],
+    "correctAnswer": "Slow Dancer"
+  },
+  {
+    "question": "Qual é a motivação inicial de Gyro Zeppeli para participar da Steel Ball Run?",
+    "options": [
+      "Ganhar dinheiro para sua família",
+      "Salvar uma criança condenada à morte",
+      "Derrotar Funny Valentine",
+      "Encontrar o Stand Ball Breaker"
+    ],
+    "correctAnswer": "Salvar uma criança condenada à morte"
+  },
+  {
+    "question": "Qual é o nome do Stand de Diego Brando (versão base)?",
+    "options": [
+      "Scary Monsters",
+      "THE WORLD",
+      "D4C",
+      "In A Silent Way"
+    ],
+    "correctAnswer": "Scary Monsters"
+  },
+  {
+    "question": "Qual é a principal regra do 'Duelo do Homem Mais Poderoso' (Ringo Roadagain)?",
+    "options": [
+      "Quem atirar primeiro perde",
+      "Só vale golpear com objetos metálicos",
+      "Quem recuar é desclassificado",
+      "O duelo termina quando um desmaia"
+    ],
+    "correctAnswer": "Quem atirar primeiro perde"
+  },
+  {
+    "question": "Qual é o papel de Lucy Steel na trama de Steel Ball Run?",
+    "options": [
+      "Ela é a esposa de Funny Valentine e age como espiã",
+      "Ela é uma rival de Johnny na corrida",
+      "Ela é a portadora do Stand 'Ticket to Ride'",
+      "Ela é a organizadora da corrida"
+    ],
+    "correctAnswer": "Ela é a esposa de Funny Valentine e age como espiã"
+  },
+  {
+    "question": "Qual é o nome do Stand de Johnny Joestar?",
+    "options": [
+      "Tusk",
+      "Ball Breaker",
+      "Scary Monsters",
+      "D4C (Dirty Deeds Done Dirt Cheap)"
+    ],
+    "correctAnswer": "Tusk"
+  },
+  {
+    "question": "Qual é o nome do Stand do vilão principal da Parte 7, Funny Valentine?",
+    "options": [
+      "Tusk",
+      "Ball Breaker",
+      "Scary Monsters",
+      "D4C (Dirty Deeds Done Dirt Cheap)"
+    ],
+    "correctAnswer": "D4C (Dirty Deeds Done Dirt Cheap)"
+  },
+  {
+    "question": "Qual é o nome do Stand de Gyro Zeppeli na Parte 7?",
+    "options": [
+      "Tusk",
+      "Ball Breaker",
+      "Scary Monsters",
+      "D4C (Dirty Deeds Done Dirt Cheap)"
+    ],
+    "correctAnswer": "Ball Breaker"
+  },
+  {
+    "question": "Qual é a contraparte de Dio Brando na Parte 7: Steel Ball Run?",
+    "options": [
+      "Funny Valentine",
+      "Diego Brando",
+      "Ringo Roadagain",
+      "Wekapipo"
+    ],
+    "correctAnswer": "Diego Brando"
+  },
+  {
+    "question": "Qual é a habilidade principal do Stand D4C de Funny Valentine?",
+    "options": [
+      "Parar o tempo",
+      "Viajar entre dimensões paralelas",
+      "Apagar o tempo",
+      "Manipular a gravidade"
+    ],
+    "correctAnswer": "Viajar entre dimensões paralelas"
+  }
+]
