@@ -37,7 +37,7 @@ Tema do quiz:Santos futebol clube.
 - **Placar:** Pontuação é calculada e atualizada a cada rodada.
 - **Tela de Resultados:** Ao final do quiz, uma tela exibe a pontuação final.
 - **Jogar Novamente:** O usuário pode reiniciar o quiz a partir da tela de resultados.
-- **Funcionalidade Adicional:** **[Nome da sua nova funcionalidade]**
+- **Funcionalidade Adicional:** **[Cartão/Expulsão]**
 
 ---
 
@@ -68,15 +68,15 @@ Após executar `npm start`, pressione `w` para abrir no navegador ou escaneie o 
 
 ---
 
-## ✨ Funcionalidade Adicional: [Nome da sua Feature]
+## ✨ Funcionalidade Adicional: [Cartão/Expulsão]
 
 Esta seção detalha a funcionalidade extra implementada como parte do desafio final do curso.
 
 ### Descrição
-*Aqui você deve descrever em 1 ou 2 parágrafos o que a nova funcionalidade faz e como ela se integra ao aplicativo de Quiz.*
+*Se você errar 2 questões do quiz, é automaticamente expulso do jogo. Tendo que reiniciar o quiz para continuar.*
 
 ### Desafios e Aprendizados
-*Nesta seção, descreva brevemente o que você precisou pesquisar e aprender para implementar a funcionalidade. Qual foi o maior desafio? Qual novo Hook do React, API do Expo ou conceito de lógica você aplicou?*
+*Tentei adicionar um aúdio de do gol do neymar na final de 2011, mas nn consegui mt dificil, deixei quieto, pretendo mais pra frente tentar implementar*
 
 ### Demonstração da Nova Funcionalidade
 <p align="center">

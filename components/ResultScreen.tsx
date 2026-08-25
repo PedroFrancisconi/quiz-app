@@ -9,10 +9,6 @@ import {
   View,
 } from 'react-native';
 
-// O arquivo do gol ainda não existe em assets/audio.
-// Enquanto isso, mantemos o app carregando sem quebrar o bundle.
-// Quando o MP3 estiver presente, substitua a linha abaixo por:
-// const golNeymarAudio = require('../assets/audio/gol_neymar_2011.mp3');
 const golNeymarAudio = null;
 
 type ResultScreenProps = {
