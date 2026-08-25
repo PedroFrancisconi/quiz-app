@@ -48,3 +48,12 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Como Funciona o quiz
+O quiz é composto por 28 perguntas relacionadas ao Santos Futebol Clube. Cada pergunta possui 4 opções de resposta, das quais apenas uma é correta. O objetivo do quiz é testar o conhecimento dos participantes sobre a história, jogadores e conquistas do clube.
+
+## Como Jogar
+1. Inicie o quiz clicando no botão "Iniciar Quiz".
+2. Leia atentamente cada pergunta e escolha a opção que você acredita ser a correta.
+3. Após selecionar uma opção, clique no botão "Próxima" para avançar para a próxima pergunta.
+4. Continue respondendo todas as perguntas até completar o quiz.

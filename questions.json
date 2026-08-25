@@ -1,102 +1,282 @@
 [
   {
-    "question": "Qual é o nome do cavalo de Johnny Joestar na Steel Ball Run?",
+    "question": "Em que ano o Santos Futebol Clube foi fundado?",
     "options": [
-      "Valkyrie",
-      "Slow Dancer",
-      "Silver Bullet",
-      "Hey Ya!"
+      "1902",
+      "1910",
+      "1912",
+      "1920"
     ],
-    "correctAnswer": "Slow Dancer"
+    "correctAnswer": "1912"
   },
   {
-    "question": "Qual é a motivação inicial de Gyro Zeppeli para participar da Steel Ball Run?",
+    "question": "Qual é o estádio oficial do Santos Futebol Clube?",
     "options": [
-      "Ganhar dinheiro para sua família",
-      "Salvar uma criança condenada à morte",
-      "Derrotar Funny Valentine",
-      "Encontrar o Stand Ball Breaker"
+      "Estádio do Morumbi",
+      "Arena Corinthians",
+      "Vila Belmiro",
+      "Estádio do Pacaembu"
     ],
-    "correctAnswer": "Salvar uma criança condenada à morte"
+    "correctAnswer": "Vila Belmiro"
   },
   {
-    "question": "Qual é o nome do Stand de Diego Brando (versão base)?",
+    "question": "Qual jogador é considerado o maior ídolo da história do Santos?",
     "options": [
-      "Scary Monsters",
-      "THE WORLD",
-      "D4C",
-      "In A Silent Way"
+      "Neymar",
+      "Pelé",
+      "Robinho",
+      "Zito"
     ],
-    "correctAnswer": "Scary Monsters"
+    "correctAnswer": "Pelé"
   },
   {
-    "question": "Qual é a principal regra do 'Duelo do Homem Mais Poderoso' (Ringo Roadagain)?",
+    "question": "Quantas vezes o Santos venceu a Copa Libertadores da América?",
     "options": [
-      "Quem atirar primeiro perde",
-      "Só vale golpear com objetos metálicos",
-      "Quem recuar é desclassificado",
-      "O duelo termina quando um desmaia"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Quem atirar primeiro perde"
+    "correctAnswer": "3"
   },
   {
-    "question": "Qual é o papel de Lucy Steel na trama de Steel Ball Run?",
+    "question": "Em que ano o Santos conquistou seu primeiro Campeonato Brasileiro?",
     "options": [
-      "Ela é a esposa de Funny Valentine e age como espiã",
-      "Ela é uma rival de Johnny na corrida",
-      "Ela é a portadora do Stand 'Ticket to Ride'",
-      "Ela é a organizadora da corrida"
+      "1961",
+      "1962",
+      "1963",
+      "1965"
     ],
-    "correctAnswer": "Ela é a esposa de Funny Valentine e age como espiã"
+    "correctAnswer": "1961"
   },
   {
-    "question": "Qual é o nome do Stand de Johnny Joestar?",
+    "question": "Qual é o apelido do Santos Futebol Clube?",
     "options": [
-      "Tusk",
-      "Ball Breaker",
-      "Scary Monsters",
-      "D4C (Dirty Deeds Done Dirt Cheap)"
+      "Peixe",
+      "Galo",
+      "Porco",
+      "Urubu"
     ],
-    "correctAnswer": "Tusk"
+    "correctAnswer": "Peixe"
   },
   {
-    "question": "Qual é o nome do Stand do vilão principal da Parte 7, Funny Valentine?",
+    "question": "Quem foi o técnico do Santos na conquista da Libertadores de 2011?",
     "options": [
-      "Tusk",
-      "Ball Breaker",
-      "Scary Monsters",
-      "D4C (Dirty Deeds Done Dirt Cheap)"
+      "Dorival Júnior",
+      "Muricy Ramalho",
+      "Ney Franco",
+      "Adilson Batista"
     ],
-    "correctAnswer": "D4C (Dirty Deeds Done Dirt Cheap)"
+    "correctAnswer": "Muricy Ramalho"
   },
   {
-    "question": "Qual é o nome do Stand de Gyro Zeppeli na Parte 7?",
+    "question": "Qual é o nome do mascote do Santos?",
     "options": [
-      "Tusk",
-      "Ball Breaker",
-      "Scary Monsters",
-      "D4C (Dirty Deeds Done Dirt Cheap)"
+      "Baleia",
+      "Tubarão",
+      "Sereia",
+      "Golfinho"
     ],
-    "correctAnswer": "Ball Breaker"
+    "correctAnswer": "Baleia"
   },
   {
-    "question": "Qual é a contraparte de Dio Brando na Parte 7: Steel Ball Run?",
+    "question": "Em qual estado brasileiro está localizado o Santos Futebol Clube?",
     "options": [
-      "Funny Valentine",
-      "Diego Brando",
-      "Ringo Roadagain",
-      "Wekapipo"
+      "Rio de Janeiro",
+      "São Paulo",
+      "Minas Gerais",
+      "Paraná"
     ],
-    "correctAnswer": "Diego Brando"
+    "correctAnswer": "São Paulo"
   },
   {
-    "question": "Qual é a habilidade principal do Stand D4C de Funny Valentine?",
+    "question": "Quais eram as cores oficiais do clube no dia da sua fundação, antes de adotar o preto e branco?",
     "options": [
-      "Parar o tempo",
-      "Viajar entre dimensões paralelas",
-      "Apagar o tempo",
-      "Manipular a gravidade"
+      "Azul, Branco e Dourado",
+      "Verde e Amarelo",
+      "Preto, Azul e Branco",
+      "Preto e Branco"
     ],
-    "correctAnswer": "Viajar entre dimensões paralelas"
+    "correctAnswer": "Azul, Branco e Dourado"
+  },
+  {
+    "question": "Qual foi o placar da final do Mundial de Clubes de 1962, quando o Santos venceu o Benfica?",
+    "options": [
+      "2x1",
+      "3x2",
+      "5x2",
+      "1x0"
+    ],
+    "correctAnswer": "5x2"
+  },
+  {
+    "question": "Qual desses títulos o Santos NUNCA conquistou?",
+    "options": [
+      "Copa do Brasil",
+      "Recopa Sul-Americana",
+      "Copa Sul-Americana",
+      "Campeonato Paulista"
+    ],
+    "correctAnswer": "Copa Sul-Americana"
+  },
+  {
+    "question": "Quem foi o artilheiro do Santos na temporada de 2020?",
+    "options": [
+      "Kaio Jorge",
+      "Marinho",
+      "Yeferson Soteldo",
+      "Felipe Jonatan"
+    ],
+    "correctAnswer": "Marinho"
+  },
+  {
+    "question": "Qual é a data oficial do aniversário do Santos Futebol Clube?",
+    "options": [
+      "14 de abril",
+      "20 de junho",
+      "15 de agosto",
+      "12 de outubro"
+    ],
+    "correctAnswer": "14 de abril"
+  },
+  {
+    "question": "Qual o nome do estádio do Santos?",
+    "options": [
+      "Estádio Urbano Caldeira",
+      "Estádio Municipal",
+      "Estádio do Peixe",
+      "Vila Belmiro"
+    ],
+    "correctAnswer": "Vila Urbano Caldeira"
+  },
+  {
+    "question": "Quantas vezes o Santos foi campeão paulista na década de 1960?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "6"
+  },
+  {
+    "question": "Qual desses jogadores NÃO foi revelado nas categorias de base do Santos?",
+    "options": [
+      "Robinho",
+      "Diego",
+      "Gabigol",
+      "Alex de Souza"
+    ],
+    "correctAnswer": "Alex de Souza"
+  },
+  {
+    "question": "Em que ano o Santos venceu a Copa Libertadores pela última vez?",
+    "options": [
+      "1962",
+      "1963",
+      "2011",
+      "2012"
+    ],
+    "correctAnswer": "2011"
+  },
+  {
+    "question": "Qual é a cor principal do uniforme do Santos Futebol Clube?",
+    "options": [
+      "Azul",
+      "Branco",
+      "Preto",
+      "Vermelho"
+    ],
+    "correctAnswer": "Branco"
+  },
+  {
+    "question": "Quem é o maior artilheiro da história do Santos Futebol Clube?",
+    "options": [
+      "Pelé",
+      "Neymar",
+      "Toninho Guerreiro",
+      "Robinho"
+    ],
+    "correctAnswer": "Pelé"
+  },
+  {
+    "question": "Em que ano o Santos Futebol Clube conquistou o seu primeiro título oficial no futebol, o Campeonato Santista?",
+    "options": [
+      "1912",
+      "1913",
+      "1915",
+      "1918"
+    ],
+    "correctAnswer": "1915"
+  },
+  {
+    "question": "Qual foi o adversário do Santos no jogo de estreia oficial do clube em 1912?",
+    "options": [
+      "Santos Athletic Club",
+      "Jabaquara",
+      "Corinthians",
+      "Palmeiras"
+    ],
+    "correctAnswer": "Santos Athletic Club"
+  },
+  {
+    "question": "Quem marcou o primeiro gol da história do Santos Futebol Clube?",
+    "options": [
+      "Arnaldo Silveira",
+      "Raimundo Marques",
+      "Urbano Caldeira",
+      "Adolpho Millon"
+    ],
+    "correctAnswer": "Raimundo Marques"
+  },
+  {
+    "question": "Em que ano o Santos atingiu a marca histórica do seu 10.000º gol?",
+    "options": [
+      "1995",
+      "1998",
+      "2004",
+      "2010"
+    ],
+    "correctAnswer": "1998"
+  },
+  {
+    "question": "Quem era o treinador do Santos na conquista do Campeonato Paulista de 1978?",
+    "options": [
+      "Lula",
+      "Pepe",
+      "Formiga",
+      "Castilho"
+    ],
+    "correctAnswer": "Formiga"
+  },
+  {
+    "question": "Contra qual equipe o Santos disputou a sua primeira partida no continente europeu, durante a excursão de 1959?",
+    "options": [
+      "Real Madrid",
+      "Benfica",
+      "RNS Sofia",
+      "Feyenoord"
+    ],
+    "correctAnswer": "RNS Sofia"
+  },
+  {
+    "question": "Qual foi a única edição da Copa Conmebol conquistada pelo Santos?",
+    "options": [
+      "1992",
+      "1995",
+      "1998",
+      "2000"
+    ],
+    "correctAnswer": "1998"
+  },
+    {
+    "question": "Qual foi a curiosidade trágica ligada à data exata da fundação do Santos (14 de abril de 1912)?",
+    "options": [
+      "O clube foi fundado exatamente no mesmo dia em que uma fábrica explodiu na cidade de Santos.",
+      "O clube foi fundado exatamente no mesmo dia em que uma grande enchente atingiu uma cidade nos Estados Unidos.",
+      "O clube foi fundado exatamente no mesmo dia em que o transatlântico Titanic afundou.",
+      "O clube foi fundado exatamente no mesmo dia em que uma revolução política ocorreu na Europa."
+    ],
+    "correctAnswer": "O clube foi fundado exatamente no mesmo dia em que o transatlântico Titanic afundou."
   }
 ]
