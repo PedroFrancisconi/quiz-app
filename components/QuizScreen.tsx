@@ -14,6 +14,7 @@ type QuizScreenProps = {
   currentQuestion: Question;
   questionNumber: number;
   score: number;
+  mistakes: number;
   selectedOption: string | null;
   isOptionsDisabled: boolean;
   onOptionPress: (option: string) => void;
@@ -25,6 +26,7 @@ export default function QuizScreen({
   currentQuestion,
   questionNumber,
   score,
+  mistakes,
   selectedOption,
   isOptionsDisabled,
   onOptionPress,
@@ -65,6 +67,46 @@ export default function QuizScreen({
         <Text style={styles.scoreText}>Pontos: {score}</Text>
       </View>
 
+      <View style={styles.cardsContainer}>
+        <Text style={styles.cardsLabel}>CARTÕES</Text>
+        <View style={styles.cardsRow}>
+          {Array.from({ length: 2 }, (_, index) => {
+            const isFirstYellow = index === 0 && mistakes >= 1;
+            const isSecondRed = index === 1 && mistakes >= 2;
+            const isSecondYellow = index === 1 && mistakes === 1;
+
+            return (
+              <View
+                key={`card-${index}`}
+                style={[
+                  styles.card,
+                  isFirstYellow && styles.yellowCard,
+                  isSecondRed && styles.redCard,
+                  isSecondYellow && styles.yellowCard,
+                  !isFirstYellow && !isSecondRed && !isSecondYellow && styles.emptyCard,
+                ]}
+              >
+                <Text style={styles.cardText}>
+                  {isSecondRed ? '🟥' : isFirstYellow || isSecondYellow ? '🟨' : '•'}
+                </Text>
+              </View>
+            );
+          })}
+        </View>
+      </View>
+
+      {selectedOption && !currentQuestion.options.includes(selectedOption) ? null : null}
+
+      {selectedOption && (
+        <Text style={styles.warningText}>
+          {mistakes === 1
+            ? '1º cartão amarelo! Cuidado!'
+            : mistakes === 2
+              ? '2º cartão: vermelho! Você foi expulso!'
+              : ''}
+        </Text>
+      )}
+
       <View style={styles.questionContainer}>
         <Text style={styles.questionNumber}>Pergunta {questionNumber}</Text>
         <Text style={styles.questionText}>{currentQuestion.question}</Text>
@@ -103,6 +145,15 @@ const styles = StyleSheet.create({
   scoreContainer: { alignItems: 'flex-end', marginBottom: 12 },
   scoreLabel: { color: '#777773', fontSize: 11, fontWeight: '800', letterSpacing: 0, marginBottom: 2 },
   scoreText: { fontSize: 18, fontWeight: '900', color: '#111111', letterSpacing: 0 },
+  cardsContainer: { marginBottom: 18 },
+  cardsLabel: { color: '#777773', fontSize: 11, fontWeight: '800', letterSpacing: 0, marginBottom: 8 },
+  cardsRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
+  card: { width: 42, height: 56, borderRadius: 10, alignItems: 'center', justifyContent: 'center', borderWidth: 2 },
+  emptyCard: { backgroundColor: '#e7e7e5', borderColor: '#d6d6d2' },
+  yellowCard: { backgroundColor: '#f4d35e', borderColor: '#d6b25e' },
+  redCard: { backgroundColor: '#d83d3d', borderColor: '#a82323' },
+  cardText: { fontSize: 22 },
+  warningText: { fontSize: 15, fontWeight: '700', color: '#8c2b2b', textAlign: 'center', marginBottom: 18 },
   questionContainer: { flex: 1, backgroundColor: '#ffffff', borderRadius: 4, padding: 20, justifyContent: 'center', marginBottom: 20, borderLeftWidth: 5, borderLeftColor: '#111111', shadowColor: '#111111', shadowOpacity: 0.08, shadowRadius: 10, shadowOffset: { width: 0, height: 4 }, elevation: 2 },
   questionNumber: { fontSize: 14, fontWeight: '900', textAlign: 'center', color: '#d6b25e', marginBottom: 12, letterSpacing: 0 },
   questionText: { fontSize: 21, fontWeight: '800', textAlign: 'center', color: '#171717', lineHeight: 29, letterSpacing: 0 },

@@ -147,7 +147,7 @@
       "Estádio do Peixe",
       "Vila Belmiro"
     ],
-    "correctAnswer": "Vila Urbano Caldeira"
+    "correctAnswer": "Estádio Urbano Caldeira"
   },
   {
     "question": "Quantas vezes o Santos foi campeão paulista na década de 1960?",
@@ -157,7 +157,7 @@
       "7",
       "8"
     ],
-    "correctAnswer": "6"
+    "correctAnswer": "7"
   },
   {
     "question": "Qual desses jogadores NÃO foi revelado nas categorias de base do Santos?",
@@ -207,7 +207,7 @@
       "1915",
       "1918"
     ],
-    "correctAnswer": "1915"
+    "correctAnswer": "1913"
   },
   {
     "question": "Qual foi o adversário do Santos no jogo de estreia oficial do clube em 1912?",
@@ -227,7 +227,7 @@
       "Urbano Caldeira",
       "Adolpho Millon"
     ],
-    "correctAnswer": "Raimundo Marques"
+    "correctAnswer": "Arnaldo Silveira"
   },
   {
     "question": "Em que ano o Santos atingiu a marca histórica do seu 10.000º gol?",

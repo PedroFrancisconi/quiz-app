@@ -1,59 +1,92 @@
-# Welcome to your Expo app 👋
+# 🏆 Quiz App - [Pedro Henrique Francisconi]
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> Status do Projeto: Concluído ✔️
 
-## Get started
+---
 
-1. Install dependencies
+### Tabela de Conteúdos
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Demonstração da Aplicação](#demonstração-da-aplicação)
+* [Funcionalidades](#-funcionalidades)
+* [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [Como Rodar o Projeto Localmente](#️-como-rodar-o-projeto-localmente)
+* [Funcionalidade Adicional](#-funcionalidade-adicional)
+* [Autor](#-autor)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+### Descrição do Projeto
+<p align="center">
+Esse é um aplicativo de Quiz desenvolvido em React Native, que permite aos usuários responderem a perguntas de múltipla escolha e receberem feedback imediato sobre suas respostas. O app inclui funcionalidades como pontuação, tela de resultados e a possibilidade de reiniciar o quiz. Além disso, foi implementada uma funcionalidade adicional como parte do desafio final do curso.
+Tema do quiz:Santos futebol clube.
+</p>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+### Demonstração da Aplicação
+<p align="center">
+  <img src="link-para-seu-gif-ou-video.gif" alt="Demonstração do App" width="300"/>
+</p>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🚀 Funcionalidades
 
-## Get a fresh project
+- **Quiz Interativo:** Fluxo de perguntas e respostas com validação.
+- **Feedback Visual:** Respostas são marcadas como corretas ou incorretas instantaneamente.
+- **Placar:** Pontuação é calculada e atualizada a cada rodada.
+- **Tela de Resultados:** Ao final do quiz, uma tela exibe a pontuação final.
+- **Jogar Novamente:** O usuário pode reiniciar o quiz a partir da tela de resultados.
+- **Funcionalidade Adicional:** **[Nome da sua nova funcionalidade]**
 
-When you're ready, run:
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+- **[React Native](https://reactnative.dev/)**
+- **[Expo](https://expo.dev/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+
+---
+
+### ⚙️ Como Rodar o Projeto Localmente
 
 ```bash
-npm run reset-project
+# 1. Clone o repositório
+$ git clone [https://github.com/PedroFrancisconi/quiz-app.git]
+
+# 2. Navegue até o diretório do projeto
+$ cd quiz-app
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. Inicie o servidor de desenvolvimento
+$ npm start
 ```
+Após executar `npm start`, pressione `w` para abrir no navegador ou escaneie o QR Code com o app Expo Go no seu celular.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ✨ Funcionalidade Adicional: [Nome da sua Feature]
 
-To learn more about developing your project with Expo, look at the following resources:
+Esta seção detalha a funcionalidade extra implementada como parte do desafio final do curso.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Descrição
+*Aqui você deve descrever em 1 ou 2 parágrafos o que a nova funcionalidade faz e como ela se integra ao aplicativo de Quiz.*
 
-## Join the community
+### Desafios e Aprendizados
+*Nesta seção, descreva brevemente o que você precisou pesquisar e aprender para implementar a funcionalidade. Qual foi o maior desafio? Qual novo Hook do React, API do Expo ou conceito de lógica você aplicou?*
 
-Join our community of developers creating universal apps.
+### Demonstração da Nova Funcionalidade
+<p align="center">
+  <img src="link-para-seu-gif-ou-screenshot.png" alt="Demonstração da Nova Funcionalidade" width="300"/>
+</p>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
 
-## Como Funciona o quiz
-O quiz é composto por 28 perguntas relacionadas ao Santos Futebol Clube. Cada pergunta possui 4 opções de resposta, das quais apenas uma é correta. O objetivo do quiz é testar o conhecimento dos participantes sobre a história, jogadores e conquistas do clube.
+### 👨‍💻 Autor
 
-## Como Jogar
-1. Inicie o quiz clicando no botão "Iniciar Quiz".
-2. Leia atentamente cada pergunta e escolha a opção que você acredita ser a correta.
-3. Após selecionar uma opção, clique no botão "Próxima" para avançar para a próxima pergunta.
-4. Continue respondendo todas as perguntas até completar o quiz.
+Desenvolvido por **[Seu Nome Completo]**.
+
+Sob a orientação do **Prof. Rafael Ribas**.
